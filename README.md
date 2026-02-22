@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Assignment: The Floating Hero Section
+![dark](image.png)
+![light](image-1.png)
+A pixel-perfect replication of the "Legal Work Platform" hero section, emphasizing high-fidelity CSS layout, component reusability, and interactive visual polish.
 
-## Getting Started
+🚀 Technical Implementation
+1. Component Architecture
+FloatingCard Component: A flexible, prop-driven component handling dynamic rotations, multiple color variants, and distinct layout slots.
 
-First, run the development server:
+Specialized Variant: The "John Doe - Portal" card is implemented as a unique layout variant within the same architecture to demonstrate advanced slot handling.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Layout & CSS Mastery
+Perspective & Rotation: Used Tailwind arbitrary values and Framer Motion to achieve the "chaotic but organized" 3D aesthetic.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Responsive Design: A grid-based split layout that transitions from a side-by-side desktop view to a mobile-friendly stacked configuration.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Background Blobs: Implemented using absolute-positioned animated pills with backdrop-blur and varying opacities to match the design assets.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Visual Polish & Bonus Features (⭐)
+🌙 Dark Mode Support: Fully integrated using next-themes and Tailwind v4, featuring unified CSS variables for seamless theme switching.
 
-## Learn More
+⚡ Framer Motion Animations:
 
-To learn more about Next.js, take a look at the following resources:
+Entrance: Cards slide and rotate into position with physics-based spring transitions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Hover: Subtle scale and counter-rotation effects for an interactive feel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Background: Continuous floating motion for background decorative elements.
 
-## Deploy on Vercel
+🛠️ Tech Stack
+Framework: Next.js(App Router)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Styling: Tailwind CSS
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Animations: Framer Motion
+
+Icons: Lucide React
