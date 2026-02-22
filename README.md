@@ -35,3 +35,9 @@ Styling: Tailwind CSS
 Animations: Framer Motion
 
 Icons: Lucide React
+
+📦 Installation
+```bash
+npm install
+npm run dev
+```
